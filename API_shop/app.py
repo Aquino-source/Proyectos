@@ -4,7 +4,7 @@ from routers import health
 from routers import crud
 
 app = FastAPI(
-    title = "Dog/Cat Classifier API", version = "0.1"
+    title = "Shoppi API", version = "0.1"
 )
 
 app.include_router(health.router)
